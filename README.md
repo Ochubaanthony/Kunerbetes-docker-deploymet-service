@@ -123,6 +123,7 @@ curl -L http://10.104.24.162:80/demo
 
 minikube  ip.      192.168.58.2
 curl -L http://192.168.58.2:30007/demo
+minikube get svc
 minikube service python-django-service-app
 
 
